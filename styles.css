@@ -1049,4 +1049,11 @@ h1, h2, h3, h4, h5, h6 {
         
     }
 }
-
+.nonedc {
+            text-decoration: none;
+            color: #f5ff69;
+        }
+        .nonedc:hover {
+            text-decoration: none;
+            color: #21fb8e;
+        }
