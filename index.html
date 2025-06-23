@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haseeb Zulfiqar - Portfolio</title>
+    <meta name="description" content="Portfolio of Haseeb Zulfiqar - Accounting & Finance professional with expertise in HR, Dispatch, and Marketing">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/images/Haseeb logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Haseeb Zulfiqar</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        
+        <div class="hero-container">
+            <div class="hero-image">
+                <img class="image-placeholder" src="assets/images/profile.jpg" alt="">
+                <!-- <div class="image-placeholder">
+                </div> -->
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Haseeb Zulfiqar</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span id="typed-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Versatile and ambitious Accounting & Finance student with hands-on experience in dispatch operations, 
+                    HR processes, marketing strategy, and digital content creation. Committed to continuous learning, 
+                    personal growth, and delivering impactful results.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="assets/HaseebZulfiqarResume.pdf" download class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my background and expertise</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Multi-Functional Professional</h3>
+                    <p>
+                        As an Accounting & Finance student at GIFT University, I bring a unique blend of academic knowledge 
+                        and practical experience across multiple domains. My journey has taken me through various roles 
+                        that have shaped my versatile skill set.
+                    </p>
+                    <p>
+                        Currently serving as HR & Dispatcher at AH Logistics Dispatch LLC, I manage comprehensive HR operations 
+                        while overseeing daily dispatch coordination. My experience spans from financial risk assessment 
+                        at Al Fatah Gujranwala to marketing strategy development at The Knowledge Lounge.
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-target="3">0</h4>
+                            <p class="stat-label">Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-target="4">0</h4>
+                            <p class="stat-label">Professional Roles</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-target="10">0</h4>
+                            <p class="stat-label">Core Skills</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">My journey across different domains and industries</p>
+            </div>
+            <div class="experience-categories">
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="all">All</button>
+                    <button class="tab-btn" data-category="finance">Accounting & Finance</button>
+                    <button class="tab-btn" data-category="hr">HR Operations</button>
+                    <button class="tab-btn" data-category="dispatch">Dispatch</button>
+                    <button class="tab-btn" data-category="marketing">Marketing</button>
+                </div>
+                <div class="experience-grid">
+                    <!-- Current Role -->
+                    <div class="experience-card" data-category="hr dispatch">
+                        <div class="card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>HR & Dispatcher</h3>
+                            <h4>AH Logistics Dispatch LLC</h4>
+                            <p class="duration">Present</p>
+                            <ul class="responsibilities">
+                                <li>Manages HR operations including recruitment, on-boarding, and compliance</li>
+                                <li>Leads employee engagement programs and performance review systems</li>
+                                <li>Oversees daily dispatch operations and client communication</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Marketing Role -->
+                    <div class="experience-card" data-category="marketing">
+                        <div class="card-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Marketing and Social Media Manager</h3>
+                            <h4>TKL (The Knowledge Lounge)</h4>
+                            <p class="duration">January 2023 – January 2024</p>
+                            <ul class="responsibilities">
+                                <li>Managed brand communication and online engagement campaigns</li>
+                                <li>Developed and implemented content strategy and outreach efforts</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Finance Role -->
+                    <div class="experience-card" data-category="finance">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Loss Provision Officer</h3>
+                            <h4>Al Fatah Gujranwala</h4>
+                            <p class="duration">January 2022 – January 2023</p>
+                            <ul class="responsibilities">
+                                <li>Conducted risk assessments and supported financial reporting</li>
+                                <li>Worked on credit evaluation and loss estimation processes</li>
+                                <li>Ensured compliance with company policy and regulations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Internship -->
+                    <div class="experience-card" data-category="finance">
+                        <div class="card-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Financial Inclusion Intern</h3>
+                            <h4>State Bank of Pakistan</h4>
+                            <p class="duration">January 2024 – June 2024</p>
+                            <ul class="responsibilities">
+                                <li>Led financial inclusion and literacy awareness initiatives</li>
+                                <li>Organized educational campaigns with banks across Pakistan</li>
+                                <li>Managed seminar logistics and attendance tracking</li>
+                                <li>Liaised with bank representatives for event success</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technical and professional competencies</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Financial Data Analysis</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Risk Assessment & Mitigation</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Microsoft Office</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Professional Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HR Operations</span>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Dispatch Coordination</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Marketing Strategy</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Communication</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Cross-functional Teamwork</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Event Planning & Execution</span>
+                            <span class="skill-percentage">87%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="87"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Resume</h2>
+                <p class="section-subtitle">Download my complete professional resume</p>
+            </div>
+            <div class="resume-content">
+                <div class="resume-preview">
+                    <div class="resume-placeholder">
+                        <i class="fas fa-file-pdf"></i>
+                        <h3>Professional Resume</h3>
+                        <p>Complete overview of my education, experience, and skills</p>
+                    </div>
+                </div>
+                <div class="resume-info">
+                    <h3>What's Included</h3>
+                    <ul class="resume-features">
+                        <li><i class="fas fa-check"></i> Complete work experience</li>
+                        <li><i class="fas fa-check"></i> Educational background</li>
+                        <li><i class="fas fa-check"></i> Technical and soft skills</li>
+                        <li><i class="fas fa-check"></i> Professional achievements</li>
+                        <li><i class="fas fa-check"></i> Contact information</li>
+                    </ul>
+                    <a href="assets/HaseebZulfiqarResume.pdf" download class="btn btn-primary btn-large">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss opportunities and collaborations</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <a href="https://wa.me/923040518098">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+923040518098</p>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="mailto:hxsebzulfiqar@gmail.com">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hxsebzulfiqar@gmail.com</p>
+                        </div>
+                    </div>
+                    </a>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/haseeb-zulfiqar-accounting-and-finance-a5197a304" target="_blank">
+                                View Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Haseeb Zulfiqar. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/haseeb-zulfiqar-accounting-and-finance-a5197a304" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
